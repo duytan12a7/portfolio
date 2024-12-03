@@ -29,9 +29,9 @@ function Home2() {
                 <b className="purple">  Javascript, TypeScript  </b>và gần đây là <b className="purple">C#</b>.
               </i>
               <br />
-              <br/>Tôi đang áp dụng một số kiến thức như
-              <b className="purple">  SOLID, Design Pattern,... </b> vào các dự án <b className="purple">Unity</b> của tôi.
-              <br />
+              {/* <br/>Tôi đang bổ sung thêm những kiến thức cần thiết như
+              <b className="purple">  SOLID, Design Pattern,... </b>
+              <br /> */}
               <br />
               Lĩnh vực mà tôi quan tâm là &nbsp;
               <i>
