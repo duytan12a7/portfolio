@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import crowdrunner from "../../Assets/Projects/crowdrunner.png";
+import platformer from "../../Assets/Projects/platformer.png";
 
 function Projects() {
   return (
@@ -21,7 +22,7 @@ function Projects() {
               imgPath={crowdrunner}
               isBlog={false}
               title="Crowd Runner"
-              description="Đây là dự án tôi vừa làm vừa học thêm kiến thức về làm Game 3D cơ bản."
+              description="Đây là dự án tôi vừa làm vừa học thêm kiến thức về làm Game 3D."
               ghLink="https://github.com/duytan12a7/CrowdRunner"
             // demoLink=""
             />
@@ -29,10 +30,10 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={crowdrunner}
+              imgPath={platformer}
               isBlog={false}
               title="Platformer 2D"
-              description="Đây là dự án tôi vừa làm vừa học thêm kiến thức về làm Game 2D cơ bản."
+              description="Đây là dự án tôi vừa làm vừa học thêm kiến thức về làm Game 2D."
               ghLink="https://github.com/duytan12a7/Platformer_Demo"
             // demoLink=""
             />
